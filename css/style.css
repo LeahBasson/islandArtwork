@@ -17,3 +17,11 @@ img{
     left: 50%;
     transform: translate(-50%, 10%);
 }
+
+/* Media query */
+@media (width < 999px)
+{
+    img{
+        width: 28rem;
+    }
+}
